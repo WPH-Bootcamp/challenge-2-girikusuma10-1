@@ -235,6 +235,11 @@ header .mobile-header {
   font-weight: 400;
   line-height: 28px;
   border-radius: 100px;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.row-wrapper .row-content .content-group nav ul li a:hover {
+  background: #181d27;
 }
 
 .row-wrapper .row-content .content-group .header-btn a {
